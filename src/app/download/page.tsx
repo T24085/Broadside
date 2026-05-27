@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ArrowLeft, CalendarDays, Play, Youtube } from "lucide-react";
 import { ScrollStory } from "@/components/scroll-story";
 import { longFormVideos, shortsVideos } from "@/lib/site-data";
@@ -59,10 +60,10 @@ export default function DownloadPage() {
 
       <header className="download-hero hud-frame" id="download" data-reveal="download" data-scroll-chapter="download">
         <div className="download-hero__copy">
-          <a className="download-hero__back" href="/">
+          <Link className="download-hero__back" href="/">
             <ArrowLeft size={16} />
             Back home
-          </a>
+          </Link>
           <span className="download-hero__eyebrow">Download</span>
           <h1>Game coming soon.</h1>
           <p>

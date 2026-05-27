@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Broadside // Community-built sci-fi action FPS-Z",
   description:
     "A cinematic landing page for Broadside, a volunteer-built Unreal Engine 5 sci-fi FPS-Z with gameplay, progress, videos, shorts, and artist recruitment.",
-  metadataBase: new URL("https://broadside.example"),
+  metadataBase: new URL("https://t24085.github.io/Broadside/"),
   openGraph: {
     title: "Broadside // Community-built sci-fi action FPS-Z",
     description:

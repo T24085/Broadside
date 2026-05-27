@@ -242,10 +242,12 @@ export default function Page() {
       <section className="section section--classes" id="classes" data-reveal="classes" data-scroll-chapter="classes">
         <SectionHeading title="Choose Your Build" kicker="Classes" />
         <div className="class-grid">
-          <div className="class-grid__art hud-frame">
-            <img
+            <div className="class-grid__art hud-frame">
+            <Image
               src="/media/class-selection.png"
               alt="Broadside class selection concept art showing Light, Medium, and Heavy suits"
+              fill
+              sizes="(max-width: 900px) 100vw, 40vw"
               className="class-grid__image"
             />
           </div>
