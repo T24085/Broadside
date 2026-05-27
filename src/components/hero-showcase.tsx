@@ -9,11 +9,9 @@ export function HeroShowcase() {
     disablekb: "1",
     fs: "0",
     iv_load_policy: "3",
-    loop: "1",
     modestbranding: "1",
     mute: "1",
     playsinline: "1",
-    playlist: alphaVideo.id,
     rel: "0"
   });
 
