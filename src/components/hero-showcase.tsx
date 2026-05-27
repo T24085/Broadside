@@ -3,23 +3,11 @@ import { longFormVideos } from "@/lib/site-data";
 const alphaVideo = longFormVideos[0];
 
 export function HeroShowcase() {
-  const embedParams = new URLSearchParams({
-    autoplay: "1",
-    controls: "0",
-    disablekb: "1",
-    fs: "0",
-    iv_load_policy: "3",
-    modestbranding: "1",
-    mute: "1",
-    playsinline: "1",
-    rel: "0"
-  });
-
   return (
     <div className="hero-showcase" aria-hidden="true">
       <iframe
         className="hero-showcase__video"
-        src={`https://www.youtube-nocookie.com/embed/${alphaVideo.id}?${embedParams.toString()}`}
+        src={`https://www.youtube-nocookie.com/embed/${alphaVideo.id}?autoplay=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&modestbranding=1&mute=1&playsinline=1&rel=0`}
         title={alphaVideo.title}
         loading="eager"
         allow="autoplay; encrypted-media; picture-in-picture; web-share"
