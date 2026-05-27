@@ -542,9 +542,9 @@ html.motion-ready .hero-section.is-visible .hero-showcase__badge {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: min(100%, 58rem);
-  margin: 0 auto;
-  padding: clamp(24px, 4vw, 56px) 20px;
+  width: min(100%, 46rem);
+  margin: 0;
+  padding: clamp(24px, 4vw, 56px) clamp(24px, 5vw, 72px);
   position: relative;
   z-index: 2;
   border: 1px solid transparent;
@@ -552,8 +552,9 @@ html.motion-ready .hero-section.is-visible .hero-showcase__badge {
   background: transparent;
   backdrop-filter: none;
   box-shadow: none;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  justify-self: start;
+  text-align: left;
 }
 
 .hero-section__eyebrow {
@@ -720,7 +721,7 @@ html.motion-ready .hero-section.is-visible .hero-showcase__badge {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin-top: 26px;
-  max-width: 34rem;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -2084,6 +2085,10 @@ html.motion-ready .hero-section.is-visible .section-heading {
   .hero-section__copy {
     padding: 18px 16px 16px;
     border-radius: 22px;
+    width: min(100%, 100%);
+    align-items: center;
+    justify-self: center;
+    text-align: center;
   }
 
   .hero-section h1 {
