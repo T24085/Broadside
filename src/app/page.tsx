@@ -176,7 +176,7 @@ export default function Page() {
           </h1>
           <span className="hero-section__subtitle">Community-built sci-fi action FPS-Z</span>
           <p className="hero-section__lede">
-            The 90s shooter spirit meets modern movement.
+            Tactical sci-fi combat with momentum, scale, and team play.
             <br />
             Indoor combat. Open terrain. Vehicles. Base building.
           </p>
@@ -215,8 +215,8 @@ export default function Page() {
             <SectionHeading title="The Project" kicker="About" />
             <p>
               Friends, Space Romans, countrymen: Broadside is a volunteer-built sci-fi FPS-Z almost a year into development. The team is
-              combining the best parts of 90s shooters with modern movement, vehicles, base building, and long sightlines for a single
-              action-packed arena experience.
+              building a modern arena shooter around movement, vehicles, base building, and long sightlines for a single action-packed
+              sci-fi experience.
             </p>
             <p>
               The project is being built in Unreal Engine 5.4 by a core team of designers, programmers, audio engineers, mappers,
