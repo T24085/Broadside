@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/asset-path";
+
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Gameplay", href: "#gameplay" },
@@ -11,32 +13,32 @@ export const heroClips = [
   {
     title: "Indoor combat",
     detail: "2025-09-10_12-56-15_-_Trim.mp4",
-    src: "/media/2025-09-10_12-56-15_-_Trim.mp4",
-    poster: "/media/concept-art.png"
+    src: assetPath("/media/2025-09-10_12-56-15_-_Trim.mp4"),
+    poster: assetPath("/media/concept-art.png")
   },
   {
     title: "Territory control",
     detail: "Scrum030126_4.mp4",
-    src: "/media/Scrum030126_4.mp4",
-    poster: "/media/blue.webp"
+    src: assetPath("/media/Scrum030126_4.mp4"),
+    poster: assetPath("/media/blue.webp")
   },
   {
     title: "Base building",
     detail: "dagcap.mp4",
-    src: "/media/dagcap.mp4",
-    poster: "/media/base.webp"
+    src: assetPath("/media/dagcap.mp4"),
+    poster: assetPath("/media/base.webp")
   },
   {
     title: "Energy system",
     detail: "Whizler2_-_L2R_Energy.mp4",
-    src: "/media/Whizler2_-_L2R_Energy.mp4",
-    poster: "/media/rocket.webp"
+    src: assetPath("/media/Whizler2_-_L2R_Energy.mp4"),
+    poster: assetPath("/media/rocket.webp")
   },
   {
     title: "Transition cut",
     detail: "boomtransition.mp4",
-    src: "/media/boomtransition.mp4",
-    poster: "/media/red.webp"
+    src: assetPath("/media/boomtransition.mp4"),
+    poster: assetPath("/media/red.webp")
   }
 ];
 
@@ -44,27 +46,27 @@ export const featureCards = [
   {
     title: "Fast Movement",
     copy: "Momentum-heavy traversal with a focus on speed, air control, and clean player readability.",
-    src: "/media/blue.webp"
+    src: assetPath("/media/blue.webp")
   },
   {
     title: "Indoor Combat",
     copy: "Tight tactical spaces built for aggressive peeks, pressure, and close-quarters fights.",
-    src: "/media/red.webp"
+    src: assetPath("/media/red.webp")
   },
   {
     title: "Open Terrain",
     copy: "Wide spaces that reward positioning, route choice, and aggressive map movement.",
-    src: "/media/concept-art.png"
+    src: assetPath("/media/concept-art.png")
   },
   {
     title: "Vehicles",
     copy: "High-speed traversal and mounted firepower designed to keep the field moving.",
-    src: "/media/rocket.webp"
+    src: assetPath("/media/rocket.webp")
   },
   {
     title: "Base Building",
     copy: "Defensive structures and fortified nodes that support team play and control.",
-    src: "/media/base.webp"
+    src: assetPath("/media/base.webp")
   }
 ];
 
@@ -94,22 +96,22 @@ export const artistRoles = [
   {
     title: "Concept Art",
     copy: "Design weapons, environments, character beats, and readable sci-fi silhouettes.",
-    src: "/media/concept-art.png"
+    src: assetPath("/media/concept-art.png")
   },
   {
     title: "3D Modeling",
     copy: "Build production-ready assets that feel native to the game world and its scale.",
-    src: "/media/rocket.webp"
+    src: assetPath("/media/rocket.webp")
   },
   {
     title: "Texturing",
     copy: "Create the metal, paint, wear, and surface detail that sells the universe.",
-    src: "/media/turret.webp"
+    src: assetPath("/media/turret.webp")
   },
   {
     title: "UX / UI",
     copy: "Design the HUD, menus, and in-game interfaces with a clear futuristic language.",
-    src: "/media/blue.webp"
+    src: assetPath("/media/blue.webp")
   }
 ];
 

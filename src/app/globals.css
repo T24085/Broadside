@@ -63,7 +63,7 @@ video {
   border-radius: 28px;
   background:
     linear-gradient(180deg, rgba(6, 10, 18, 0.96), rgba(4, 7, 13, 0.98)),
-    url("/media/bottom-banner.png") center/cover no-repeat;
+    var(--page-shell-bg-image) center/cover no-repeat;
   box-shadow: var(--shadow);
 }
 

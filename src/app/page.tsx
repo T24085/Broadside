@@ -3,6 +3,7 @@ import { ExternalLink, Gamepad2, MessageCircleMore, Play, Youtube } from "lucide
 import { HeroShowcase } from "@/components/hero-showcase";
 import { SectionHeading } from "@/components/section-heading";
 import { ScrollStory } from "@/components/scroll-story";
+import { assetPath } from "@/lib/asset-path";
 import {
   artistRoles,
   classChoices,
@@ -233,7 +234,7 @@ export default function Page() {
           <MediaCard
             title="Volunteer-built world"
             copy="The visual direction prioritizes tactile sci-fi surfaces, readable silhouettes, and production art that can move directly into the game."
-            src="/media/concept-art.png"
+            src={assetPath("/media/concept-art.png")}
             className="about-grid__card"
           />
         </div>
@@ -244,7 +245,7 @@ export default function Page() {
         <div className="class-grid">
             <div className="class-grid__art hud-frame">
             <Image
-              src="/media/class-selection.png"
+              src={assetPath("/media/class-selection.png")}
               alt="Broadside class selection concept art showing Light, Medium, and Heavy suits"
               fill
               sizes="(max-width: 900px) 100vw, 40vw"
@@ -338,7 +339,13 @@ export default function Page() {
         </div>
 
         <aside className="banner-panel hud-frame">
-          <Image src="/media/bottom-banner.png" alt="Broadside production banner" fill sizes="(max-width: 900px) 100vw, 40vw" className="banner-panel__image" />
+          <Image
+            src={assetPath("/media/bottom-banner.png")}
+            alt="Broadside production banner"
+            fill
+            sizes="(max-width: 900px) 100vw, 40vw"
+            className="banner-panel__image"
+          />
           <div className="banner-panel__overlay">
             <h3>Built by gamers. For gamers.</h3>
             <p>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oxanium, Inter } from "next/font/google";
 import "./globals.css";
 import { FloatingDownloadButton } from "@/components/floating-download-button";
+import { assetPath } from "@/lib/asset-path";
 
 const oxanium = Oxanium({
   subsets: ["latin"],
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${oxanium.variable} ${inter.variable}`}>
-      <body>
+      <body style={{ ["--page-shell-bg-image" as string]: `url("${assetPath("/media/bottom-banner.png")}")` }}>
         {children}
         <FloatingDownloadButton />
       </body>
