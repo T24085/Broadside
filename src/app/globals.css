@@ -552,9 +552,9 @@ html.motion-ready .hero-section.is-visible .hero-showcase__badge {
   background: transparent;
   backdrop-filter: none;
   box-shadow: none;
-  align-items: flex-start;
-  justify-self: start;
-  text-align: left;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
 }
 
 .hero-section__eyebrow {
